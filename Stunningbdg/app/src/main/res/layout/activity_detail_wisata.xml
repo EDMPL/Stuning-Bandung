@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.stunningbdg.DetailWisataActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/dusunbambu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="13dp"
+        android:text="Dusun Bambu"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/konten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/review"
+        android:onClick="Description"
+        android:padding="10dp"
+        android:text="Dusun Bambu Lembang - Mencari Tempat Wisata di Bandung yang fresh, sejuk, alami dan bisa mengobati stress anda dari berbagai rutinitas kerja dan berbagai permasalahan kehidupan yang mengelilingi anda? Yuk, saya akan ajak anda mengenal Dusun Bambu family Leisure Park Lembang, yang mudah-mudahan bisa menjadi alternatif tempat rekreasi pilihan anda bersama keluarga untuk mencari ketenangan dan kenyamanan di Bandung. Selengkapnya..." />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar2"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/ratingBar2"
+        android:onClick="ShowReview"
+        android:text="1551 review" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@+id/nama" />
+
+    <ImageButton
+        android:id="@+id/btn_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:onClick="Photos"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/txt_waktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@+id/konten"
+        android:text="Jam buka-Jam Tutup : 8AM-9PM " />
+
+
+</RelativeLayout>

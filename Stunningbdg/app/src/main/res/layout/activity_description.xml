@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.stunningbdg.DescriptionActivity">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Fasilitas:* Tempat makan: Di burangrang resto pengunjung dapat menikmati sajian makanan dan minuman sambil menikmati pemandangan, burangrang resto juga menyajikan berbagai layanan seperti family gathering ,luncheon dan corporate training. Mungkin anda mau mencoba menikmati kopi atau bandrek hangat disini? Lutung Kasarung Mau mencoba makan siang dengan sensasi berada dalam sangkar burung? silahkan menikatinya di  Purbasari Restaurant Mau menikmati makanan khas sunda sambil lesehan, silahkan mampir ke restaurant purbasari. Restaurant ini terletak di tepi danau yang sering dijadikan onjek foto oleh pengunjung, sehingga menikmati makan siang disini bisa menjadi pengalaman baru bagi anda yang mengesankan. purbasari Kampung Layung Kampung Layung mulai dari Rp. 2,5 Jt/malam. Foto by @Dusun_Bambu Eagle Camp Lain-lain: Pasar Khatulistiwa, Tegal Pangulinan, Balad Lodaya pasar-khatulistiwa Mushola Bagi kaum Muslim yang ingin menjalankan ibadah sholat, tersedia mushola yang cukup nyaman untuk digunakan beribadah. Kegiatan Wisata di Dusun Bambu: Dengan area yang cukup luas, banyak aktifitas wisata yang bisa dilakukan di Dusun Bambu diantaranya: Bersepeda Bersepeda di alam yang masih asri akan memberikan pengalaman tersendiri bagi anda, apalagi hal ini dilakukan bersama keluarga dan anak-anak tercinta, selain menyegarkan juga sebagai sarana olahraga yang menyehatkan, sambil menikmati pemandangan pegunungan yang indah di Dusun Bambu. Olahraga Lari Bagi anda yang senang melakukan kegiatan olahraga lari, maka Dusun Bambu adalah tempat yang ideal untuk melakukan hobby anda berlari, selain pemandangan alamnya yang luar biasa, yang tak kalah penting adalah udaranya yang segar. Camping/ Berkemah di Dusun Bambu camping-dusun-bambu Para pecinta alam dan petualang jangan lewatkan pengalaman menikmati malam di sejuknya udara pegunungan dengan berkemah di Dusun Bambu, yang tentunya akan memberikan pengalaman tersendiri berwisata di salah satu tempat wisata favorit di Bandung utara. Aneka aktifitas untuk anak-anak   Untuk memasuki tempat wisata Dusun Bambu, anda harus membeli tiket seharga Rp. 15.000,- per orang" />
+</LinearLayout>
